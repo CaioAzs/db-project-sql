@@ -1,3 +1,16 @@
+Configuração do Banco de Dados
+Criação do Banco de Dados: No PostgreSQL, crie um banco com o nome desejado.
+
+Execução do Script SQL: Execute o script create_tables.sql no banco de dados criado. Este script criará todas as tabelas necessárias para o funcionamento do banco de dados.
+
+População das Tabelas: Execute o arquivo Python populate_tables.py para popular as tabelas com dados fictícios. Certifique-se de ter a biblioteca Faker instalada.<br>
+<br>Alunos:<br>
+Caio de Souza Conceição - RA: 22.122.033-8 <br>
+Pedro Henrique Algodoal - RA: 22.122.072-6<br>
+Samir Oliveira da Costa - RA: 22.122.030-4
+
+
+
 ```mermaid
 erDiagram
     aluno ||--o{ historico_disciplina : id_aluno
