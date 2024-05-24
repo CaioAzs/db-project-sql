@@ -1,4 +1,3 @@
-Configuração do Banco de Dados
 Criação do Banco de Dados: No PostgreSQL, crie um banco com o nome desejado.
 
 Execução do Script SQL: Execute o script create_tables.sql no banco de dados criado. Este script criará todas as tabelas necessárias para o funcionamento do banco de dados.
