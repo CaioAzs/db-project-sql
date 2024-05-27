@@ -13,6 +13,7 @@ Samir Oliveira da Costa - RA: 22.122.030-4
 ```mermaid
 erDiagram
     aluno ||--o{ historico_disciplina : id_aluno
+    aluno ||--o{ tcc_membro : id_aluno
     professor ||--o{ historico_professor : id_professor
     professor ||--o{ tcc_grupo : id_professor
     departamento ||--|| professor : id_departamento
